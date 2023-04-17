@@ -25,12 +25,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("node:fs/promises"));
 const main = () => {
-    fs.readdir("./")
+    fs.readdir('./')
         .then((files) => {
         console.log(files);
     })
         .catch((err) => {
-        console.error("error: ", err);
+        console.error('error: ', err);
     });
 };
 main();

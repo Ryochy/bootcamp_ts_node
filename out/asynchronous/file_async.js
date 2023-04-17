@@ -26,11 +26,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("node:fs/promises"));
 const main = async () => {
     try {
-        const files = await fs.readdir("./");
+        const files = await fs.readdir('./');
         console.log(files);
     }
     catch (err) {
-        console.error("error: ", err);
+        console.error('error: ', err);
     }
 };
 main();

@@ -13,7 +13,7 @@ const b = 2;
 const c = b;
 // Q3: 変数 d の定義を修正して型エラーを直してください
 // ここの型を修正する
-const d = "hello";
+const d = 'hello';
 // ここがエラーにならないようにする
 const e = d;
 // ---------- 型推論 (Type Inference) ----------

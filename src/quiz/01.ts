@@ -13,12 +13,12 @@ a++;
 const b: number = 2;
 
 // ここの型を修正する
-const c :number = b;
+const c: number = b;
 
 // Q3: 変数 d の定義を修正して型エラーを直してください
 
 // ここの型を修正する
-const d: string = "hello";
+const d: string = 'hello';
 
 // ここがエラーにならないようにする
 const e: string = d;

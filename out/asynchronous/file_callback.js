@@ -25,9 +25,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("node:fs"));
 const main = () => {
-    fs.readdir("./", (err, files) => {
+    fs.readdir('./', (err, files) => {
         if (err !== null) {
-            console.error("error: ", err);
+            console.error('error: ', err);
             return;
         }
         console.log(files);

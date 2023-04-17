@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
     "format:fix": "prettier  --check 'src/**/*.{js,ts}'"
   },
   "dependencies": {
